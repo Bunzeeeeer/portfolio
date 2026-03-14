@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" className="py-32 px-16 border-t border-white/10">
+    <section id="contact" className="py-20 md:py-32 px-6 md:px-16 border-t border-white/10">
       <p className="text-violet-400 text-xs uppercase tracking-widest mb-4">
         05 — contact
       </p>
@@ -14,7 +14,7 @@ function Contact() {
         something together.
       </h2>
 
-      <div className="grid grid-cols-2 gap-20 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-start">
         {/* Left */}
         <div>
           <a
@@ -27,7 +27,7 @@ function Contact() {
 
           <div className="flex flex-col gap-4">
             <a
-              href="https://linkedin.com/in/lance-joshua-corcega"
+              href="https://www.linkedin.com/in/lance-joshua-corcega-32792a25a/"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition-colors"

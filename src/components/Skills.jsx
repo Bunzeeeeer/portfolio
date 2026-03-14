@@ -57,7 +57,7 @@ function Skills() {
   }
 
   return (
-    <section id="skills" className="py-32 px-16 border-t border-white/10">
+    <section id="skills" className="py-20 md:py-32 px-6 md:px-16 border-t border-white/10">
 
       <p className="text-violet-400 text-xs uppercase tracking-widest mb-4">02 — skills</p>
 
@@ -68,7 +68,7 @@ function Skills() {
         What I bring<br />to the table.
       </h2>
 
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
         {skills.map((skill) => (
           <div
             key={skill.title}

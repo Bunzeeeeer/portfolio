@@ -8,11 +8,11 @@ function About() {
 
   return (
     <section id="about" className="py-32 px-16 border-t border-white/10">
-      <p className="text-violet-400 text-xs uppercase tracking-widest mb-4">
+      <p className="py-20 md:py-32 px-6 md:px-16 border-t border-white/10">
         01 — about
       </p>
 
-      <div className="grid grid-cols-2 gap-16 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start">
         <div>
           <h2
             style={{ fontFamily: "Syne, sans-serif" }}

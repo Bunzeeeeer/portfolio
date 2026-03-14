@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center pt-24 px-16 relative overflow-hidden"
+      className="min-h-screen flex items-center pt-24 px-6 md:px-16 relative overflow-hidden"
     >
       {/* Glow effects */}
       <div className="absolute w-96 h-96 rounded-full bg-violet-500/10 blur-3xl -left-20 top-1/2 -translate-y-1/2 pointer-events-none" />
