@@ -63,7 +63,7 @@ function Experience() {
   }
 
   return (
-    <section id="experience" className="py-32 px-16 border-t border-white/10">
+    <section id="experience" className="py-20 md:py-32 px-6 md:px-16 border-t border-white/10">
 
       <p className="text-violet-400 text-xs uppercase tracking-widest mb-4">03 — experience</p>
 

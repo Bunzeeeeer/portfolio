@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="border-t border-white/10 px-16 py-8 flex items-center justify-between">
+    <footer className="border-t border-white/10 px-6 md:px-16 py-8 flex flex-col md:flex-row items-center justify-between gap-2">
       <p className="text-xs text-white/20 tracking-wider">
         © 2025 Lance Joshua Corcega. Designed & coded with intention.
       </p>

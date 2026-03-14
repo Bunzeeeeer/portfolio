@@ -57,7 +57,7 @@ function Projects() {
   }
 
   return (
-    <section id="projects" className="py-32 px-16 border-t border-white/10">
+    <section id="projects" className="py-20 md:py-32 px-6 md:px-16 border-t border-white/10">
 
       <p className="text-violet-400 text-xs uppercase tracking-widest mb-4">04 — projects</p>
 
@@ -68,7 +68,7 @@ function Projects() {
         Things I'm<br />building.
       </h2>
 
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
         {projects.map((project) => (
           <div
             key={project.title}
