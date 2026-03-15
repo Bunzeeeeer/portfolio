@@ -19,7 +19,7 @@ function Hero() {
 
         {/* Name */}
         <h1 style={{ fontFamily: 'Syne, sans-serif' }}
-        className="font-syne text-7xl font-black leading-none tracking-tight mb-6">
+        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-none tracking-tight mb-6">
           Lance Joshua
           <br />
           <span
@@ -31,7 +31,7 @@ function Hero() {
         </h1>
 
         {/* Tagline */}
-        <p className="text-gray-400 text-base max-w-xl mb-10 leading-relaxed">
+        <p className="text-gray-400 text-sm md:text-base max-w-xl mb-10 leading-relaxed pr-4 md:pr-0">
           Software Engineer specializing in{" "}
           <em className="text-teal-400 not-italic font-medium">
             mobile development
