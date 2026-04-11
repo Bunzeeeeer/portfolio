@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import BleIotDashboard from './pages/BleIotDashboard'
+import ExpenseIQ from './pages/ExpenseIQ'
 
 function Home() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/ble-iot-dashboard" element={<BleIotDashboard />} />
+        <Route path="/projects/expense-iq" element={<ExpenseIQ />} />
       </Routes>
     </BrowserRouter>
   )

@@ -6,12 +6,13 @@ function Projects() {
   const projects = [
     {
       icon: "📱",
-      title: "Android App — TBD",
-      desc: "A native Android application built with Kotlin & MVVM architecture. Details dropping soon.",
-      tags: ["Java", "MVVM", "RxJava"],
+      title: "Android App",
+      desc: "Native Android applications built with Java (Soon with Kotlin), clean MVVM architecture, and production-grade practices. More apps shipping soon.",
+      tags: ["Java", "MVVM", "RxJava", "Kotlin (Soon)"],
       color: "violet",
-      coming: true,
-      clickable: false,
+      coming: false,
+      clickable: true,
+      path: "/projects/expense-iq",
     },
     {
       icon: "🌐",
